@@ -1,0 +1,11 @@
+<syntaxe>
+Syntaxe : pver apply [-R Ref] [-c] [fichier ou répertoire]
+	[-R ref]	indique le référentiel concerné
+	[-c]		applique également à la copie de référence (clone)
+<err_connect_ref>
+Impossible de se connecter au référentiel
+<err_patch_impossible>
+Impossible d\'appliquer
+<err_patch_format>
+format non reconnu
+<fin>

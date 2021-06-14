@@ -1,0 +1,23 @@
+<aide>
+Syntaxe :
+	pver move [--ref|-R référentiel [--sys|-s] [--crep|c] fic1 fic2 ... ficN dest
+
+Informe Perversion que les fichiers sont renommés (ou déplacés) pour la nouvelle version
+	--ref ref	La commande ne s'applique qu'à un référentiel
+	--sys		Effectue les déplacements sur le système d'exploitation
+	--crep		Crée les répertoires parents
+<non_param>
+pver move : paramètres manquants
+<renomme_rep>
+Renommage répertoire
+<rep_non_exist>
+Déplacement de plusieurs fichiers vers un répertoire inexistant 
+<fic_existe>
+Une entrée existe déjà pour 
+<non_existe>
+Le fichier n'existe pas
+Vous devez créer le fichier auparavant ou utiliser l'option --sys
+<non_existe_parent>
+Le répertoire parent n'existe pas 
+Ajoutez-le ou utilisez l'option --crep
+<fin> 

@@ -1,0 +1,23 @@
+<syntaxe>
+Syntaxe :
+	pver init [référentiel] [archive] [projet] [branche]? [login/mot-passe]?
+ou
+	pver init
+		(-r | --ref) [référentiel]
+		(-a | --archive) [archive]
+		(-p | --projet) [projet]
+		(-b | --branche) [branche])?
+		(-l | --login) [login/mot-de-passe])
+
+Connecte le répertoire courant à un projet dans une archive Perversion.
+Si nécessaire, crée le projet et/ou la branche.
+Par défaut on se connecte à la branche 'base'
+
+Le paramètre login n'est utilisé que pour les archives distantes (FTP, WebDav, ...) :
+	syntaxe : nom/pass (ou nom seul, le mot de passe sera alors redemandé à chaque fois)
+
+<non_param>
+pver init : paramètres manquants
+<imposs_cree_pver>
+Impossible de créer .pver
+<fin>

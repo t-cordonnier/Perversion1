@@ -1,0 +1,12 @@
+<aide>
+Syntaxe :
+	pver conf [-R référentiel] [--server|-S] param valeur [param valeur ...]+
+
+Modifie un paramètre de la copie locale
+	[-R ref]	Modifie un paramètre ne concernant que ce référentiel
+	[--serveur]	Répercute les changements sur le serveur (recquiert des droits spécifiques)
+<non_param>
+Paramètres recquis manquants
+<non_autorise_serv>
+Le serveur ne permet pas à cet utilisateur de modifier sa configuration
+<fin> 

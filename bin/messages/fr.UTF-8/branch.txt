@@ -1,0 +1,7 @@
+<non_base>
+Impossible de retrouver le répertoire de base
+<manque_type>
+Type de branche non précisé
+<mauv_type>
+Type de branche incorrect
+<fin>

@@ -1,0 +1,37 @@
+<aide>
+pver crpatch [--ref|-R référentiel] [--unit|-U unité] [--date|-D date] [--sortie|S fichier] [-text|T] 
+
+Crée un fichier de différences mais ne l'envoie pas sur le serveur
+	--aide		Affiche ce message
+	--ref		Référentiel dans lequel on valide 
+	--unit		Valide seulement une ou plusieurs unités (séparées par des virgules)
+	--date		Enregistre cette date comme date de validation
+	--sortie	Nom du fichier à produire (par défaut : nom d'unité + version)
+	--text		N'utilise jamais bsdiff pour les fichiers texte
+<manque_log>
+Pas de fichier message : utilisez pver logedit 
+<cree_correctifs>
+Création des correctifs
+<err_fichiers>
+Erreur sur fichiers
+<aucun_changement>
+Aucun changement à enregistrer.
+<id_ref>
+Référentiel
+<id_unite>
+Unité
+<id_rev>
+Révision
+<cree_cache>
+création cache
+<fichier_journal>
+Fichier journal
+<rep_diff>
+Répertoire différences
+<cree_archive>
+Création de l'archive
+<diff_vide>
+différence vide
+<diff_ok>
+Différence OK
+<fin>

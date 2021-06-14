@@ -1,0 +1,31 @@
+<aide>
+pver commit [--ref|-R référentiel] [--unit|-U unité] [--date|-D date] [--atom|-A] [--conserve|-c] 
+
+Valide une série de modifications
+	--aide		Affiche ce message
+	--ref		Référentiel dans lequel on valide 
+	--unit		Valide seulement une ou plusieurs unités (séparées par des virgules)
+	--date		Enregistre cette date comme date de validation
+	--atom		Si on valide plusieurs unités et que l'une échoue, abandonne
+	--conserve	Garde l'unité complète plutôt que les différences
+<manque_log>
+Pas de fichier message : utilisez pver logedit 
+<verif_unites>
+Vérification des unités à valider...
+<unite>
+Unité
+<err_fichiers>
+Erreur sur fichiers
+<aucun_changement>
+Aucun changement à enregistrer.
+<revision>
+révision
+<non_sync>
+déjà dans la base. Utilisez pver sync.
+<envoi_serveur>
+Envoi des données sur le serveur...
+<envoi_serveur_de>
+Envoi sur le serveur de 
+<cons_clone>
+Constitution de la copie de travail...
+<fin>

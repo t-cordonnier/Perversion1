@@ -1,0 +1,15 @@
+<aide>
+Syntaxe :
+	pver copy [--ref|-R référentiel [--sys|-s] fic1 fic2 ... ficN dest
+
+Ajoute des fichiers, mais par comparaison avec des fichiers déjà existants
+	--ref ref	La commande ne s'applique qu'à un référentiel
+	--sys		Effectue les copies sur le système d'exploitation
+<non_param>
+pver copy : paramètres manquants
+<fic_existe>
+Une entrée $dest existe déjà pour 
+<non_existe>
+Le fichier n'existe pas
+Vous devez créer le fichier auparavant ou utiliser l'option --sys
+<fin> 

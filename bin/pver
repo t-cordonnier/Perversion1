@@ -1,0 +1,24 @@
+#! /usr/bin/perl
+
+use File::Basename;
+BEGIN {
+	$main::PVBINDIR = dirname ($0);
+	push (@INC, $main::PVBINDIR);
+}
+
+my $cmd = shift; my $script = "$PVBINDIR/$cmd.pl";
+if (! $cmd) {
+	require PV::Local; my %MESSAGES = PV::Local::messages ('pver');
+	die $MESSAGES{syntaxe};
+} elsif ($ARGV[0] eq '--aide') {
+	require PV::Local; my %MSGCMD = PV::Local::messages ($cmd);
+	print $MSGCMD{aide} || $MSGCMD{syntaxe}, "\n";
+	exit 0;
+} elsif (-e $script) {
+	do $script;
+	die $@ if $@;
+} else {
+	require PV::Local; my %MESSAGES = PV::Local::messages ('pver');
+	die "$MESSAGES{nonexist} ($cmd)\n";
+}
+

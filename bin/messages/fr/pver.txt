@@ -1,0 +1,5 @@
+<syntaxe>
+Syntaxe : pver commande [arguments...]
+<nonexist>
+Perversion : Commande inexistante
+<fin>

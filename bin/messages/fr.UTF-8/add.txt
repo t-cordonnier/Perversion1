@@ -1,0 +1,17 @@
+<param_manque>
+pver add : paramètres manquants
+<syntaxe>
+Syntaxe :
+	pver add [(-f | --format) format]? [-s | --stable]? [(-U | --unit) unité] fichiers
+
+Ajoute les fichiers à la liste des entrées
+
+Options :
+	-f | --format	Applique un traitement particulier pour les fichiers : tar, zip, ...
+	-s | --stable	Le fichier est inséré mais non versionné (c.a.d on ne conserve que la dernière version)
+	-R | --ref	ajoute uniquement dans un référentiel donné
+	-U | --unit	ajoute le fichier en tant que membre d'une unité donnée (sinon -U global)
+ 
+<fic_non_exist>
+Fichier inexistant
+<fin>
